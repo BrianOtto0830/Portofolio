@@ -7,13 +7,13 @@ const AboutUs = () => {
             <div className="max-w-7xl mx-auto">
                 {/* Hero Section */}
                 <div className="text-center mb-12">
-                <Image
-                    src="/images/OttoProfile.png"
-                    alt="Stefanus Brian Otto Hartanto"
-                    width={150}
-                    height={150}
-                    className="rounded-full border-4 border-gray-800 shadow-lg"
-                />
+                    <Image
+                        src="/images/OttoProfile.png"
+                        alt="Stefanus Brian Otto Hartanto"
+                        width={150}
+                        height={150}
+                        className="rounded-full border-4 border-gray-800 shadow-lg mx-auto"
+                    />
                     <h1 className="text-4xl font-bold mb-4">Stefanus Brian Otto Hartanto</h1>
                     <p className="text-xl mb-4">Fullstack Web Developer | React | Next.js | JavaScript</p>
                     <p className="text-lg opacity-80 max-w-2xl mx-auto">
@@ -25,16 +25,16 @@ const AboutUs = () => {
                 {/* About Section */}
                 <div className="lg:flex justify-between items-center space-x-10 mb-16">
                     <div className="w-full lg:w-2/3">
-                        <h2 className="text-3xl font-semibold mb-4">Tentang Saya</h2>
-                        <p className="text-lg mb-6">
+                        <h2 className="text-3xl font-semibold mb-4 text-center lg:text-left">Tentang Saya</h2>
+                        <p className="text-lg mb-6 text-center lg:text-left">
                             Sebagai pengembang web, saya memiliki pengalaman luas dalam membangun aplikasi web dengan
                             menggunakan JavaScript, React, Next.js, dan banyak teknologi backend seperti Node.js dan
                             PostgreSQL. Saya selalu berfokus pada penyediaan solusi yang efisien dan berbasis data.
                         </p>
                     </div>
                     <div className="w-full lg:w-1/3">
-                        <h3 className="text-2xl font-semibold mb-4">Keterampilan</h3>
-                        <ul className="space-y-3">
+                        <h3 className="text-2xl font-semibold mb-4 text-center lg:text-left">Keterampilan</h3>
+                        <ul className="space-y-3 text-center lg:text-left">
                             <li>JavaScript / ES6+</li>
                             <li>React.js & Next.js</li>
                             <li>Node.js & Express.js</li>
